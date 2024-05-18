@@ -6,7 +6,7 @@ from pytorch_lightning.callbacks import ModelCheckpoint, EarlyStopping
 
 import pytorch_lightning as pl
 
-from datasets_turntaking import DialogTextDM
+from datasets_turntaking import ConversationalDM as DialogTextDM
 from turngpt.model import TurnGPT, TurnGPTWandbCallbacks
 
 

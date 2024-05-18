@@ -60,7 +60,7 @@ see `README_tokenizer.md` for further information.
 #### Simple use
 
 ```python
-from convlm.tokenizer import SpokenDialogTokenizer
+from turngpt.tokenizer  import SpokenDialogTokenizer
 
 pretrained_model_name_or_path="microsoft/DialoGPT-small"
 tokenizer = SpokenDialogTokenizer(pretrained_model_name_or_path)
@@ -110,7 +110,7 @@ An un-trained TurnGPT model, loads pre-trained weights by default, and includes 
 
 ```python
   from argparse import ArgumentParser
-  from convlm.turngpt import TurnGPT
+  from turngpt import TurnGPT
 
   parser = ArgumentParser()
   parser = TurnGPT.add_model_specific_args(parser)
